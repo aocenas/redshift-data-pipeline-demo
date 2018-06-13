@@ -1,0 +1,27 @@
+{
+  "name": "redshift-data-pipeline-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon build/server.js --watch build",
+    "build": "babel ./src -d ./build --source-maps inline",
+    "build:watch": "babel ./src -d ./build -w --source-maps inline"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.254.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "glossy": "^0.1.7",
+    "logfmt": "^1.2.1",
+    "moment": "^2.22.2",
+    "prettier": "^1.13.4",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

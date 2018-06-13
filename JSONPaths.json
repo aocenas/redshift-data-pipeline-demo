@@ -1,0 +1,7 @@
+{
+  "jsonpaths": [
+    "$.timestamp",
+    "$.name",
+    "$.value"
+  ]
+}

@@ -1,0 +1,6 @@
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+yarn-error.log
+build
+node_modules
