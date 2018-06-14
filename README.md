@@ -1,6 +1,6 @@
 ### Firehose to Redshift pipeline with Terraform
 
-Code accompanying explanatory [blog post](todo).
+Code accompanying explanatory [blog post](https://medium.com/@aoc/kinesis-firehose-to-redshift-pipeline-with-terraform-2261b5afd29d).
 
 ### To run this:
 
